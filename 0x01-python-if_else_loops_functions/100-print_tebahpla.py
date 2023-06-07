@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
-for i in range(122, 64, -1):
-    print("{0}{1}".format(chr(i), chr(i-32)), end="")
-
+#!/usr/bin/python3 
+ for number in range(122, 97, -2): 
+     print("{:c}{:c}".format(number, number-33), end="")
